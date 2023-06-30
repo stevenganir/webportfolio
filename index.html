@@ -23,24 +23,24 @@
 
 	<body>
 		<!-- Navbar Start -->
-		<nav id="navbar" class="navbar navbar-expand-lg sticky-top">
-			<a class="navbar-brand" href="#landing">Steven</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    	<span class="navbar-toggler-icon"></span>
+		<nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-dark p-3">
+			<a class="navbar-brand" href="#">Steven</a>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
 		  	</button>
 		  	<div class="collapse navbar-collapse" id="navbarNav">
 		    	<ul class="navbar-nav ml-auto">
-			     	<li class="nav-item active">
-			        	<a class="nav-link" href="#">Projects<span class="sr-only">(current)</span></a>
-			      	</li>
-			      	<li class="nav-item">
-			        	<a class="nav-link" href="#tools">Tools</a>
-			      	</li>
-			      	<li class="nav-item">
-			        	<a class="nav-link" href="#contact">Contact</a>
-			    	</li>
+		     		<li class="nav-item">
+		       			<a class="nav-link" href="#projects">Projects</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#tools">Tools</a>
+		     		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#contact">Contact</a>
+		      		</li>
 		    	</ul>
-		  	</div>
+		  </div>
 		</nav>
 		<!-- Navbar End -->
 
@@ -67,11 +67,37 @@
 		<!-- Landing Section End -->
 
 		<!-- Projects Section Start -->
+		<div id="projects" class="bg-secondary text-light p-3">
+					
+			<h1 class="text-center p-3 mt-4">Projects</h1>
+			<div class="d-lg-flex justify-content-center p-md-5">
 
+			<!-- Developer Portfolio Card -->
+				<div class="card bg-dark col-xl-4 m-3 mb-xl-0">
+					<div class="card-body d-flex flex-column justify-content-center">
+						<img src="./images/profile.jpeg" class="card-img-top img-fluid" height="150">
+						<h5 class="card-title text-center mt-3">Developer Portfolio</h5>
+						<p class="card-text text-center">Composed of Developer's information, projects, tools, and contact info. Mentored by Ms. Hillary Almonte.</p>
+						
+					</div>
+				</div>
+
+			<!-- Paper Machine Card -->
+				<div class="card bg-dark col-xl-4 m-3 mb-xl-0">
+					<div class="card-body d-flex flex-column justify-content-center">
+						<img src="./images/paper_machine.jpg" class="card-img-top img-fluid" height="150" >
+						<h5 class="card-title text-center mt-3">Paper Machine</h5>
+						<p class="card-text text-center">Revision of a Paper Machine's Dryer Section Carrier Rope Setup to minimize production lost time when sheet threading.</p>
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
 		<!-- Projects Section End -->
 
 		<!-- Tools Section Start -->
-		<div id="tools" class="p-5">
+		<div id="tools" class="container-fluid p-5">
 				<h1 class="text-center p-3 mt-3">Developer Tools</h1>
 				<div class="d-flex flex-md-row flex-column justify-content-center">
 						<div class="d-flex m-2 justify-content-center">
@@ -114,20 +140,26 @@
 		<!-- Tools Section End -->
 
 		<!-- Contacts Section Start -->
-		<div id="contact" class="container-fluid">
+		<div id="contact" class="container-fluid pb-5">
 			<h1 class="text-center p-3">Contact me!</h1>
 			<div class="row">
 				<div class="col-md-6 col-12">
-					<h3 class="text-center">Reach me through:</h3>
+					<h3  class="text-center">Reach me through:</h3>
 					<div class="d-flex p-3 justify-content-center flex-column">
 						<div class="d-flex m-4 justify-content-center">
-						<img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" class="img-fluid overflow-hidden bg-light rounded mx-3" width="50">
+							<a href="https://www.facebook.com/StevenGanir" target="_blank">
+								<img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" class="img-fluid overflow-hidden bg-light rounded mx-3" width="50">
+							</a>
 						</div>
 						<div class="d-flex m-4 justify-content-center">
-						<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="img-fluid overflow-hidden bg-light rounded mx-3" width="50">
+							<a href="https://www.linkedin.com/in/stevenganir" target="_blank">
+								<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="img-fluid overflow-hidden bg-light rounded mx-3" width="50">
+							</a>
 						</div>
 						<div class="d-flex m-4 justify-content-center">
-						<img src="https://cdn-icons-png.flaticon.com/512/4494/4494740.png" class="img-fluid overflow-hidden bg-light rounded mx-3" width="50">
+							<a href="https://www.facebook.com/StevenGanir" target="_blank">
+								<img src="https://cdn-icons-png.flaticon.com/512/4494/4494740.png" class="img-fluid overflow-hidden bg-light rounded mx-3" width="50">
+							</a>
 						</div>
 					</div>
 				</div>
@@ -159,25 +191,25 @@
 
 		<!-- Modal Component -->
 		<div id="modalDiv">
-								<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-								  <div class="modal-dialog">
-								    <div class="modal-content">
-								      <div class="modal-header">
-								        <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
-								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								          <span aria-hidden="true">&times;</span>
-								        </button>
-								      </div>
-								      <div class="modal-body text-dark">
-								        <p>Message Successfully Sent<p>
-								      </div>
-								      <div class="modal-footer">
-								        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-								      </div>
-								    </div>
-								  </div>
-								</div>
-							</div>
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title text-dark" id="exampleModalLabel">Message Successfully Sent!</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p class="text-dark text-center">We'll get back to you as soon as we can.<p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 		<!-- Bootstrap JS Bundle -->

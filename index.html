@@ -14,16 +14,77 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;800&family=Lobster&family=Open+Sans&family=Orbitron:wght@900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
 		<!-- External CSS -->
 		<link rel="stylesheet" type="text/css" href="./index.css">
 
-		<title></title>
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+		<!-- data-aos -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+
+		<title>Steven Ganir</title>
 	</head>
 
-	<body>
+	<body data-aos-easing='ease' data-aos-duration='400' data-aos-delay='0'>
+		
+
+		<!-- Lading Section Start -->
+
+		<div id='landing' class='container-fluid d-flex flex-column align-items-center justify-content-center'>
+			<div data-aos="zoom-in-down" data-aos-duration='500'>
+				<h2 class='intro'>Hi! I am Steven.</h2>
+			</div>
+			<div class='typewriter-container'>
+				<h3 class="typewriter-text">I'm a full stack web developer</h3>
+			</div>
+			<div class='container-fluid mt-1'>
+				<div class='row'>
+					<div id='social-icons-container' class='col d-flex justify-content-center align-items-center'>
+						<a href="https://www.linkedin.com/in/stevenganir/" target="_blank" class='social-icon facebook'>
+							<i class="fa-brands fa-linkedin fa-icons"></i>
+						</a>
+						<a href="https://www.facebook.com/StevenGanir" target="_blank" class='social-icon facebook'>
+							<i class="fa-brands fa-facebook fa-icons"></i>
+						</a>
+						<a href="https://gitlab.com/stevenganir" target="_blank" class='social-icon gitlab'>
+							<i class="fa-brands fa-gitlab fa-icons"></i>
+						</a>
+						<a href="https://github.com/stevenganir" target="_blank" class='social-icon github'>
+							<i class="fa-brands fa-github fa-icons"></i>
+						</a>
+						<a href="https://drive.google.com/file/d/1w5Hkt8eHnDwjGxOqfTXeid9-Qfrib1xP/view?usp=sharing" target="_blank" class='social-icon file'>
+							<i class="fa-solid fa-file fa-icons"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id='chevron-container' class="row d-flex align-items-bottom">
+				<div class='col'>
+					<a href='#aboutMe'>
+						<i class="fa-sharp fa-solid fa-chevron-down chevron-icons"></i>
+					</a>
+				</div>
+			</div>
+			
+		</div>
+
+		<!-- Lading Section End -->
+
+		<!-- Chevron Start -->
+
+		
+
+		<!-- Chevron End -->
+
 		<!-- Navbar Start -->
-		<nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-dark p-2">
+		<nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-dark">
 			<a class="navbar-brand" href="#landing">Steven</a>
 		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -31,191 +92,218 @@
 		  	<div class="collapse navbar-collapse" id="navbarNav">
 		    	<ul class="navbar-nav ml-auto">
 		     		<li class="nav-item">
-		       			<a class="nav-link" href="#projects">Projects</a>
+		       			<a class="nav-link" href="#aboutMe">About Me</a>
 		      		</li>
 		      		<li class="nav-item">
-		        		<a class="nav-link" href="#tools">Tools</a>
-		     		</li>
+		        		<a class="nav-link" href="#projects">Projects</a>
+		      		</li>
 		      		<li class="nav-item">
 		        		<a class="nav-link" href="#contact">Contact</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="https://drive.google.com/file/d/1w5Hkt8eHnDwjGxOqfTXeid9-Qfrib1xP/view?usp=sharing" target="_blank">Resume</a>
 		      		</li>
 		    	</ul>
 		  </div>
 		</nav>
 		<!-- Navbar End -->
 
-		<!-- Landing Section Start -->
-		<div id="landing" class="container-fluid p-5">
+		<!-- About Me Section Start -->
+		<div id="aboutMe" class="container-fluid px-2 d-flex align-items-center" >
 			<div class="row">
-				<div class="col-md-4 col-12 p-5 text-center">
-					<img src="./images/dp.jpeg" width="300" class="img-fluid rounded-circle">
+				<div class="col-md-4 col-12 p-5 d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-duration='300' data-aos-delay='100'>
+					<img src="./images/dp.jpeg" class="img-fluid">
 				</div>
-				<div class="col-md-8 col-12 d-flex justify-content-center flex-column p-5">
-					<div class="text-center">
-						<h1>STEVEN GANIR</h1>
+				<div class="col-md-8 col-12 d-flex justify-content-center flex-column p-1">
+					<div class="text-center" data-aos="fade-up" data-aos-duration='300' data-aos-delay='300'>
+						<h1>ABOUT ME</h1>
 					</div>
-					<div class="p-3 d-flex flex-lg-row flex-column justify-content-center">
+					<div class="p-1 d-flex flex-lg-row flex-column justify-content-center" data-aos="fade-up" data-aos-duration='300' data-aos-delay='500'>
 						<h5 class="text-center">FULL STACK WEB DEVELOPER</h5>
 						<h5 class="px-2 text-center d-lg-block d-none">|</h5>
 						<h5 class="text-center">MECHANICAL ENGINEER</h5>
 					</div>
-					<div class="text-center p-3">
-						<p>A Registered Mechanical Engineer who has a background as a Production Engineer. As an intrepid person committ	ed to long life learning, he decided to take a big step shifting to another different career.<p>
+					<div class="px-3" data-aos="fade-up" data-aos-duration='300' data-aos-delay='700'>
+						<p>I am Jan Steven R. Ganir, a full stack web developer from Valenzuela City, Metro Manila, Philippines. I have serious passion in information technology, web development, and programming.</p>
+					</div>
+					<div class="px-3" data-aos="fade-up" data-aos-duration='300' data-aos-delay='850'>
+						<p>Aside from web developing, I am also a licensed Mechanical Engineer, currently working as Production Engineer in a Paper Manufacturing Company.</p>
 					</div>
 				</div>
 				
 			</div>
 		</div>
-		<!-- Landing Section End -->
-
-		<!-- Projects Section Start -->
-		<div id="projects" class="bg-secondary text-light p-5">
-					
-			<h1 class="text-center p-3 mt-4">Projects</h1>
-			<div class="d-lg-flex justify-content-center p-md-5">
-
-			<!-- Developer Portfolio Card -->
-				<div class="card bg-dark col-xl-4 m-3 mb-xl-0">
-					<div class="card-body d-flex flex-column justify-content-center">
-						<img src="./images/profile.jpeg" class="card-img-top img-fluid" height="150">
-						<h5 class="card-title text-center mt-3">Developer Portfolio</h5>
-						<p class="card-text text-center">Composed of Developer's information, projects, tools, and contact info. Mentored by Ms. Hillary Almonte.</p>
-						
-					</div>
-				</div>
-
-			<!-- Paper Machine Card -->
-				<div class="card bg-dark col-xl-4 m-3 mb-xl-0">
-					<div class="card-body d-flex flex-column justify-content-center">
-						<img src="./images/paper_machine.jpg" class="card-img-top img-fluid" height="150" >
-						<h5 class="card-title text-center mt-3">Paper Machine</h5>
-						<p class="card-text text-center">Revision of a Paper Machine's Dryer Section Carrier Rope Setup to minimize production lost time when sheet threading.</p>
-						
-					</div>
-				</div>
-
-			</div>
-		</div>
-		<!-- Projects Section End -->
+		<!-- About Me Section End -->
 
 		<!-- Tools Section Start -->
-		<div id="tools" class="container-fluid pt-4 pb-5">
-				<h1 class="text-center p-5 mt-3">Developer Tools</h1>
-				<div class="d-flex flex-md-row flex-column justify-content-center">
-						<div class="d-flex m-2 justify-content-center">
-			        		<img src="https://cdn-icons-png.flaticon.com/512/288/288872.png" class="img-fluid overflow-hidden p-3 bg-light rounded-circle" width="125">
-			        	</div>
-			        	<div class="d-flex m-2 justify-content-center">
-			        		<img src="https://cdn-icons-png.flaticon.com/512/82/82127.png" class="img-fluid overflow-hidden p-3 bg-light rounded-circle" width="125">
-			        	</div>
-			        	<div class="d-flex m-2 justify-content-center">
-			       			<img src="https://cdn-icons-png.flaticon.com/512/5968/5968671.png" class="img-fluid overflow-hidden p-3 bg-light rounded-circle" width="125">
-			       		</div>
-			       		<div class="d-flex m-2 justify-content-center">	
-			        		<img src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png" class="img-fluid overflow-hidden p-3 bg-light rounded-circle" width="125">
-			        	</div>
-			        	<div class="d-flex m-2 justify-content-center">
-			        		<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="img-fluid overflow-hidden p-3 bg-light rounded-circle" width="125">
-			        	</div>
-	           	</div>
-            	<h1 class="text-center p-5 mt-5">Other Tools</h1>
-				<div class="d-flex flex-md-row flex-column justify-content-center">
-						<div class="d-flex m-2 justify-content-center">
-	                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968572.png" class="img-fluid overflow-hidden p-3 bg-light rounded-circle" width="125">
-	                    </div>
-	                    <div class="d-flex m-2 justify-content-center">
-	                      	<img src="https://cdn-icons-png.flaticon.com/512/121/121138.png" class="img-fluid overflow-hidden p-3 bg-light rounded-circle" width="125">
-	                    </div>
-	                    <div class="d-flex m-2 justify-content-center">
-	                      	<img src="https://cdn-icons-png.flaticon.com/512/5968/5968575.png" class="img-fluid overflow-hidden p-3 bg-light rounded-circle" width="125">
-	                    </div>
-	                    <div class="d-flex m-2 justify-content-center">
-	                      	<img src="https://cdn-icons-png.flaticon.com/512/28/28866.png" class="img-fluid overflow-hidden p-3 bg-light rounded-circle" width="125">
-	                    </div>
-	                    <div class="d-flex m-2 justify-content-center">
-	                      	<img src="https://www.shareicon.net/data/2016/06/19/603790_solidworks_512x512.png" class="img-fluid overflow-hidden p-3 bg-light rounded-circle" width="125">
-	                    </div>
-	                </div>
+		<div id="tools" class="container-fluid px-2">
+				<div class="row">
+					<div class='col'>
+						<h1 class="text-center" data-aos="fade-up" data-aos-duration='300' data-aos-delay='100'>Tools I Use</h1>
+					</div>
+				</div>
+				<div class='row'>
+						<div class="col d-flex justify-content-center" data-aos="zoom-in-up" data-aos-duration='300' data-aos-delay='400'>
+							<div class="card tool-card mx-3 mx-md-5 my-4">
+								<div class='card-title-s'><p>HTML</p></div>
+								<img src="./images/html.png" class="img-fluid">
+							</div>
+							<div class="card tool-card mx-3 mx-md-5 my-4">
+								<div class='card-title-s'><p>CSS</p></div>
+								<img src="./images/css.png">
+							</div>
+							<div class="card tool-card mx-3 mx-md-5 my-4">
+								<div class='card-title-l'><p>Javascript</p></div>
+								<img src="./images/javascript.png">
+							</div>
+							<div class="card tool-card mx-3 mx-md-5 my-4">
+								<div class='card-title-l'><p>Bootstrap</p></div>
+								<img src="./images/bootstrap.png">
+							</div>
+						</div>
             	</div>
-           	</div>
+            	<div class='row'>
+						<div class="col d-flex justify-content-center" data-aos="zoom-in-up" data-aos-duration='300' data-aos-delay='500'>
+							<div class="card tool-card mx-3 mx-md-5 my-4">
+								<div class='card-title-s'><p>Git</p></div>
+								<img src="./images/git.png">
+							</div>
+							<div class="card tool-card mx-3 mx-md-5 my-4">
+								<div class='card-title-l'><p>MongoDB</p></div>
+								<img src="./images/mongodb.png">
+							</div>
+							<div class="card tool-card mx-3 mx-md-5 my-4">
+								<div class='card-title-l'><p>Postman</p></div>
+								<img src="./images/postman.png">
+							</div>
+							<div class="card tool-card p-2 mx-3 mx-md-5 my-4">
+								<div class='card-title-s'><p>Node JS</p></div>
+								<img src="./images/nodejs.png">
+							</div>
+						</div>
+            	</div>
+            	<div class='row'>
+						<div class="col d-flex justify-content-center" data-aos="zoom-in-up" data-aos-duration='300' data-aos-delay='600'>
+							<div class="card tool-card p-2 mx-3 mx-md-5 my-4">
+								<div class='card-title-l'><p>Express JS</p></div>
+								<img src="./images/expressjs.png">
+							</div>
+							<div class="card tool-card p-1 pt-2 mx-3 mx-md-5 my-4">
+								<div class='card-title-s'><p>React JS</p></div>
+								<img src="./images/reactjs.png">
+							</div>
+							<div class="card tool-card p-1 mx-3 mx-md-5 my-4">
+								<div class='card-title-s'><p>Render</p></div>
+								<img src="./images/render.png">
+							</div>
+							<div class="card tool-card p-2 mx-3 mx-md-5 my-4">
+								<div class='card-title-s'><p>Vercel</p></div>
+								<img src="./images/vercel.png">
+							</div>
+						</div>
+            	</div>
+           	
 		</div>
 		<!-- Tools Section End -->
 
-		<!-- Contacts Section Start -->
-		<div id="contact" class="container-fluid pb-5">
-			<h1 class="text-center p-5">Contact me!</h1>
-			<div class="row">
-				<div class="col-md-6 col-12">
-					<h3  class="text-center">Reach me through:</h3>
-					<div class="d-flex p-3 justify-content-center flex-column">
-						<div class="d-flex m-4 justify-content-center">
-							<a href="https://www.facebook.com/StevenGanir" target="_blank">
-								<img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" class="img-fluid overflow-hidden bg-light rounded mx-3" width="50">
-							</a>
-						</div>
-						<div class="d-flex m-4 justify-content-center">
-							<a href="https://www.linkedin.com/in/stevenganir" target="_blank">
-								<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="img-fluid overflow-hidden bg-light rounded mx-3" width="50">
-							</a>
-						</div>
-						<div class="d-flex m-4 justify-content-center">
-							<a href="https://gitlab.com/stevenganir" target="_blank">
-								<img src="https://cdn-icons-png.flaticon.com/512/4494/4494740.png" class="img-fluid overflow-hidden bg-light rounded mx-3" width="50">
-							</a>
-						</div>
+		<!-- Projects Section Start -->
+		<div id="projects" class="container-fluid">
+			<div class="container" data-aos="fade-up" data-aos-duration='300' data-aos-delay='100'>
+				<div class="row">
+					<div class='col'>
+							<h1 class="text-center">Projects</h1>
 					</div>
 				</div>
-				<div class="col-md-6 col-12 px-5">
-					<h3 class="text-center">Send an inquiry now:</h3>
-					<div>
-						<form>
-							<div class="form-group">
-								<label for="FullName">Full Name</label>
-								<input type="text" class="form-control" id="FullName">
+			</div>
+
+			<div class="container mt-3 p-3" data-aos="zoom-in-up" data-aos-duration='300' data-aos-delay='400'>
+				<div class="card-columns">
+					<div class="card card-proj border">
+						<a href="https://stevenganir.github.io/webportfolio/">
+							<img class="card-img-top" src="./images/developer-portfolio.png">
+							<div class="card-body">
+								<p class="card-text text-light text-center">Portfolio Website created with HTML, CSS, and Bootstrap</p>
+								<div class='text-center'>
+									<span class="badge badge-pill badge-light text-dark my-0">HTML</span>
+									<span class="badge badge-pill badge-light text-dark my-0">CSS</span>
+									<span class="badge badge-pill badge-light text-dark my-0">Bootstrap</span>
+								</div>
 							</div>
-							<div class="form-group">
-								<label for="EmailAdd">Email address</label>
-								<input type="email" class="form-control" id="EmailAdd">
+						</a>
+					</div>
+					<div class="card card-proj border">
+						<a href="https://github.com/stevenganir/capstone2" target="_blank">
+							<img class="card-img-top" src="./images/api.png">
+							<div class="card-body">
+								<p class="card-text text-light text-center">Server developed with Express.js hosting an E-commerce application</p>
+								<div class='text-center'>
+									<span class="badge badge-pill badge-light text-dark my-0">Javascript</span>
+									<span class="badge badge-pill badge-light text-dark my-0">Node.js</span>
+									<span class="badge badge-pill badge-light text-dark my-0">Express.js</span>
+									<span class="badge badge-pill badge-light text-dark my-0">MongoDB</span>
+								</div>
 							</div>
-							<div class="form-group">
-								<label for="Message">Message</label>
-								<textarea class="form-control" id="Message" rows="5"></textarea>
+						</a>
+					</div>
+					<div class="card card-proj border">
+						<a href="https://capstone3-black-xi.vercel.app/" target="_blank">
+							<img class="card-img-top" src="./images/app.png">
+							<div class="card-body">
+								<p class="card-text text-light text-center">Fullstack E-commerce Website using MERN Stack</p>
+								<div class='text-center'>
+									<span class="badge badge-pill badge-light text-dark my-0">CSS</span>
+									<span class="badge badge-pill badge-light text-dark my-0">Bootstrap</span>
+									<span class="badge badge-pill badge-light text-dark my-0">Javascript</span>
+									<span class="badge badge-pill badge-light text-dark my-0">Node.js</span>
+									<span class="badge badge-pill badge-light text-dark my-0">Express.js</span>
+									<span class="badge badge-pill badge-light text-dark my-0">MongoDB</span>
+									<span class="badge badge-pill badge-light text-dark my-0">React.js</span>
+								</div>
 							</div>
-							<div class="d-flex justify-content-center">
-								<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Submit</button>
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		<!-- Contacts Section Start -->
+		<div id="contact" class="container-fluid align-items-center justify-content-center">
+			<div class="container" data-aos="zoom-in-down" data-aos-duration='300' data-aos-delay='100'>
+				<div class="row">
+					<div class='col text-center'>
+						<h1>Contact Me</h1>
+						<p>Reach me through the following social lines</p>
+					</div>
+					<div class='container-fluid mt-1'>
+						<div class='row justify-content-center align-items-center'>
+							<div id='social-icons-container' class='col d-flex justify-content-center align-items-center'>
+								<a href="https://www.linkedin.com/in/stevenganir/" target="_blank" class='social-icon facebook'>
+									<i class="fa-brands fa-linkedin fa-icons"></i>
+								</a>
+								<a href="https://www.facebook.com/StevenGanir" target="_blank" class='social-icon facebook'>
+									<i class="fa-brands fa-facebook fa-icons"></i>
+								</a>
+								<a href="https://gitlab.com/stevenganir" target="_blank" class='social-icon gitlab'>
+									<i class="fa-brands fa-gitlab fa-icons"></i>
+								</a>
+								<a href="https://github.com/stevenganir" target="_blank" class='social-icon github'>
+									<i class="fa-brands fa-github fa-icons"></i>
+								</a>
 							</div>
-						</form>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- Contacts Section End -->
 
-		<!-- Modal Component -->
-		<div id="modalDiv">
-			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title text-dark" id="exampleModalLabel">Message Successfully Sent!</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<p class="text-dark text-center">We'll get back to you as soon as we can.<p>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
 		<!-- Bootstrap JS Bundle -->
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+		<!-- Data-aos -->
+		<script>AOS.init({once: true});</script>
+
 	</body>
 </html>

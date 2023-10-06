@@ -214,7 +214,6 @@ nav a {
 		url('./images/projectsbg.jpg');
 	background-size: cover;
 	background-position: center top;
-	min-height: 100vh;
 	background-attachment: fixed;
 	padding-top: 5em;
 }
@@ -243,7 +242,6 @@ nav a {
 }
 
 #contact div div div h1 {
-	min-height: 10vh;
 	font-size: 40px;
 	font-weight: 600;
 }

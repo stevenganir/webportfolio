@@ -128,7 +128,7 @@ nav a {
 }
 
 #tools {
-	background-image: linear-gradient(rgba(0, 109, 170, 1), rgba(0, 53, 89, 1));
+	background-image: linear-gradient(rgba(6, 51, 93, 1), rgba(2, 1, 0, 1));
 	padding-top: 3em;
 	padding-bottom: 5em;
 }
@@ -228,6 +228,7 @@ nav a {
 	transition: transform 500ms;
 	font-size: 20px;
 	font-weight: 600;
+	min-height: 450px;
 }
 
 .card-proj:hover{
